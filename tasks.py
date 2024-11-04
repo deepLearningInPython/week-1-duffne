@@ -49,8 +49,8 @@ def ReLu(arr, cutoff):
 # Your code here:
 # -----------------------------------------------
 
-def neural_net_layer(two_dim, one_dim):
-    mult = two_dim @ one_dim
+def neural_net_layer(twodim, onedim):
+    mult = twodim @ onedim
     ans = ReLu(mult)
     return ans
 
